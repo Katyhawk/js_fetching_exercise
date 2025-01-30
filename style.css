@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.persons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.persons>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid blue;
+    width: clamp(250px, 30vw, 300px);
+}
+
+h3 {
+    width: 100%;
+    text-align: center;
+    background: blue;
+    color: white;
+    padding-block: .5rem;
+}
+
+.flag {
+    width: 30%;
+    height: 15%;
+}
+
+div {
+    border: solid;
+    border-color: black;
+    background-color: gray;
+}

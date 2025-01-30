@@ -1,0 +1,10 @@
+// Vervang de X'en in Ocp-Apim-Subscription-Key met jou api key, hernoem daarna het bestand naar key.mjs
+
+export function key() {
+    const headers = {
+        "Ocp-Apim-Subscription-Key": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "Content-Type": "application/json",
+    }
+
+    return headers;
+}
